@@ -30,9 +30,9 @@ sudo docker build -t spring/workshop .
 ```
 4. launch this docker image with the same database network using
 ```
-sudo docker run ---network="host" spring/workshop
+sudo docker run --network="host" spring/workshop
 ```
-#API
+# API
 using postman or any web browser apply
 ```
 localhost:9090/{company_code}
